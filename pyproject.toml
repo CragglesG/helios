@@ -1,0 +1,19 @@
+[project]
+name = "helios"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "CragglesG", email = "121510295+CragglesG@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "obd>=0.7.3",
+]
+
+[project.scripts]
+helios = "helios:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
